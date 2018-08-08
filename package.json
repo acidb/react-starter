@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@mobiscroll/react": "^4.2.4",
     "immutability-helper": "^2.7.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
