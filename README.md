@@ -11,11 +11,6 @@ $ mobiscroll start react
 
 $ npm start
 
-This (npm start) will run the ionic project in browser. For testing the app on a device or emulator run:
-
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-
-You can do the same for Android by substituting ios for android.
+This (npm start) will run the react project in browser.
 
 Feel free to reach out on https://mobiscroll.com if there is any trouble.
