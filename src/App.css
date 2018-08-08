@@ -1,0 +1,123 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    height: 100%;
+}
+
+.app-content {
+    height: 100%;
+}
+
+.app-page {
+    min-height: 100%;
+}
+
+.app-header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.mbsc-page .app-header h3 {
+    margin: 0;
+    padding: 0 12px;
+    font-size: 20px;
+}
+
+.app-tab {
+    display: none;
+    padding-top: 52px;
+    padding-bottom: 64px;
+}
+
+.app-tab-active {
+    display: block;
+}
+
+
+/* Mobiscroll Theme */
+
+.mbsc-mobiscroll .app-header {
+    background: #4eccc4;
+    color: #fff;
+}
+
+
+/* iOS Theme */
+
+.mbsc-ios .app-header {
+    border-bottom: 1px solid #ccc;
+    background: #f7f7f7;
+    color: #000;
+}
+
+.mbsc-ios .app-header h1 {
+    font-size: 17px;
+}
+
+.mbsc-ios .app-tab {
+    padding-top: 42px;
+    padding-bottom: 56px;
+}
+
+.mbsc-ios .app-tab-home .mbsc-divider {
+    margin-bottom: -1px;
+}
+
+.mbsc-ios-dark .app-header {
+    background: #000;
+    color: #fff;
+    border-color: #333;
+}
+
+
+/* Material Theme */
+
+.mbsc-material .app-header {
+    background: #009688;
+    color: #fff;
+}
+
+.mbsc-material .app-tab {
+    padding-bottom: 64px;
+}
+
+.mbsc-material-dark .app-header {
+    background: #81ccc4;
+}
+
+/* Windows Theme */
+
+.mbsc-windows .app-header {
+    background: #f8f8f8;
+    color: #000;
+    text-align: left;
+}
+
+.mbsc-windows-dark .app-header {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+.mbsc-windows .app-tab {
+    padding-bottom: 64px;
+}
+
+.mbsc-windows .app-tab .mbsc-lv-cont .mbsc-lv .mbsc-lv-item {
+    padding-left: 4.375em;
+}
+
+.mbsc-windows .app-tab .mbsc-lv-cont .mbsc-lv .mbsc-checkbox-box {
+    left: 2.5em;
+}
+
