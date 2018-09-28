@@ -35,15 +35,9 @@ body {
 }
 
 .app-tab {
-    display: none;
     padding-top: 52px;
     padding-bottom: 64px;
 }
-
-.app-tab-active {
-    display: block;
-}
-
 
 /* Mobiscroll Theme */
 
