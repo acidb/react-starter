@@ -28,13 +28,13 @@ export default class SettingsPage extends Component {
                     </div>
                     <div className="mbsc-form-group">
                         <div className="mbsc-form-group-title">Sound</div>
-                        <mobiscroll.Slider value="100" icon="phone">Ring</mobiscroll.Slider>
-                        <mobiscroll.Slider value="60" icon="music">Media</mobiscroll.Slider>
-                        <mobiscroll.Slider value="80" icon="alarm2">Alarm</mobiscroll.Slider>
+                        <mobiscroll.Slider value={100} icon="phone">Ring</mobiscroll.Slider>
+                        <mobiscroll.Slider value={60} icon="music">Media</mobiscroll.Slider>
+                        <mobiscroll.Slider value={80} icon="alarm2">Alarm</mobiscroll.Slider>
                     </div>
                     <div className="mbsc-form-group">
                         <div className="mbsc-form-group-title">Notifications</div>
-                        <mobiscroll.Switch onChange={this.enable} value={this.state.enabled}>
+                        <mobiscroll.Switch onChange={this.enable} checked={this.state.enabled}>
                             Enable notifications
                             <span className="mbsc-desc">Allow notifications on this device</span>
                         </mobiscroll.Switch>
