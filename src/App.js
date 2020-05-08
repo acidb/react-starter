@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, BrowserRouter, Route } from 'react-router-dom';
+import { Switch, BrowserRouter, Route, withRouter } from 'react-router-dom';
 import './App.css';
 import mobiscroll from '@mobiscroll/react';
 import HomePage from './pages/Home.page';
@@ -11,7 +11,7 @@ mobiscroll.settings = {
 }
 
 // config to use react router
-mobiscroll.Route = Route;
+mobiscroll.setupReactRouter(Route, withRouter)
 
 class App extends Component {
     render() {
